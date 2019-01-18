@@ -27,7 +27,7 @@
               <p>
                 <span class="label text-primary">Sentence Input</span>
                 <br>
-                <input type="text" class="form-control" id="idsen" value="the chef eats fish with the chopsticks" size="80">
+                <input type="text" class="form-control" id="idsen" value="MAI TRONG HOA" size="80">
               </p>
               <p>
                 <span class="label text-primary">Thời gian cập nhật biểu đồ <i>(ms)</i></span>
@@ -46,25 +46,35 @@
               <span class="label text-primary">Grammar <i>(theo ngữ pháp CNF)</i></span>
               <br>
               <textarea class="form-control" id="idgram" cols="70" rows="13">
-NP -&gt; DET N
-S -&gt; NP VBZ
-S -&gt; NP VP
-VP -&gt; VP PP
-VP -&gt; VBZ NP
-VP -&gt; VBZ PP
-VP -&gt; VBZ NNS
-VP -&gt; VBZ VP
-VP -&gt; VBP PP
-NP -&gt; DT NN
-NP -&gt; DT NNS
+S -&gt; VP NP
+NP -&gt; MAI
+NP -&gt; HOA
+NP -&gt; NN PP
 PP -&gt; IN NP
-DT -&gt; the
-NN -&gt; chef
-NNS -&gt; fish
-NNS -&gt; chopsticks
-VBP -&gt; fish
-VBZ -&gt; eats
-IN -&gt; with
+NP -&gt; NN NN
+VP -&gt; VB NP
+VP -&gt; ADJP VB
+VP -&gt; VP VP
+VP -&gt; VB ADJP
+VP -&gt; VB VP
+VP -&gt; VP PP
+VP -&gt; ADVP VB
+VP -&gt; VP NP
+PP -&gt; IN NP
+ADJP -&gt; RB JJ
+VB -&gt; TRO2NG 
+NN -&gt; SAN
+IN -&gt; TRONG
+VB -&gt; RAT 
+JJ -&gt; DEP
+VB -&gt; THICH
+VB -&gt; NO 
+VB -&gt; VAO 
+NN -&gt; MUA
+NN -&gt; XUAN
+NN -&gt; THU
+JJ -&gt; NHIEU
+NN -&gt; LA
 </textarea>
             </div>
           </div>
